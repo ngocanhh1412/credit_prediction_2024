@@ -1,0 +1,95 @@
+/* Form Container */
+.input-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Group */
+  .input-form > .div-form {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  /* Input Fields */
+  .input-text[type="text"],
+  .input-select {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+    margin-top: 3px;
+  }
+  
+  /* Placeholder (formerly label) */
+  .input-text::placeholder,
+  .input-select::placeholder {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  /* Focus Effect */
+  .input-text:focus,
+  .input-select:focus {
+    outline: none;
+    border-color: rgb(50, 191, 177);
+    box-shadow: 0 0 8px rgba(50, 191, 177, 0.6);
+  }
+  
+  /* Submit Button */
+  .form-submit-button {
+    background-color: #f7f7f7;
+    color: rgb(50, 191, 177);
+    border: 1px solid rgb(50, 191, 177);
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .form-submit-button:hover {
+    background-color: rgb(50, 191, 177);
+    color: #f7f7f7;
+    box-shadow: 0 0 8px rgba(50, 191, 177, 0.6);
+  }
+  
+  .form-submit-button:focus {
+    outline: none;
+    box-shadow: 0px 0px 4px rgba(50, 191, 177, 0.5);
+  }
+  
+  /* Adjusting the modal style */
+  .form-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+
+    width: 15%;
+    max-width: 500px;
+
+    text-align: center;
+  }
+
+  .credit-score-span-green {
+    color: rgb(50, 191, 177);
+  }
+  .credit-score-span-red {
+    color: rgb(255, 51, 0);
+  }
+  
+  

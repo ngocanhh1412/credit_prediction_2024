@@ -1,0 +1,97 @@
+/* NavBar.css */
+
+.sidebar {
+    height: 100vh;
+    overflow: auto;
+    width: 250px;
+    z-index: 4;
+    padding-bottom: 50px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.666);
+    position: fixed;
+    padding: 10px;
+  }
+  
+  /* LOGO */
+  .logo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS'; 
+  }
+  .logo-luna {
+    color: rgb(50, 191, 177); 
+  }
+  .logo-dot {
+    color: rgb(255, 51, 0); 
+  }
+  .logo-credit {
+    color: white; 
+  }
+  
+  /* Nút */
+  .sidebar-button {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    background: none;
+    border: 2px solid rgba(210, 210, 210, 0);
+    width: 100%;
+    cursor: pointer;
+    line-height: 30px;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .sidebar-button:hover,
+  .sidebar-button.isActive {
+    background-color: #7f7f7f;
+  }
+  
+  .sidebar-button.isActive {
+    background-color: #a1a1a1;
+    border: 2px solid rgb(210, 210, 210); 
+  }
+  
+  .hr-navbar {
+    margin-bottom: 20px;
+  }
+  
+
+   /* Logo Button */
+.logo-button {
+  background: none;
+  border: none;
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS'; 
+  
+  width: 100%;
+  color: white;
+
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.logo-button .logo-luna {
+  color: rgb(50, 191, 177); 
+}
+
+.logo-button .logo-dot {
+  color: rgb(255, 51, 0); 
+}
+
+.logo-button .logo-credit {
+  color: white; 
+}

@@ -1,0 +1,169 @@
+   .table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    height: calc(100vh - 40px);
+    overflow: auto;
+  }
+  
+  .upload-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 15%;
+  }
+  
+  .dropzone {
+    border: 2px dashed #ddd;
+    padding: 50px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+  }
+  
+  .dropzone:hover {
+    background-color: #e9e9e9;
+    border-color: rgb(50, 191, 177);
+  }
+  
+  .file-info {
+    margin-top: 20px;
+  }
+  
+  .table-section {
+    width: 100%;
+    max-width: 1000px;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+    min-width: 44%;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+  
+  .modal-content h3 {
+    margin-top: 0;
+  }
+
+
+  /* Nút upload file */
+  .file-upload-button {
+    background-color: #f7f7f7;
+    color: rgb(50, 191, 177);
+    border: 1px solid rgb(50, 191, 177);
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .file-upload-button:hover {
+    background-color: rgb(50, 191, 177);
+    color: #f7f7f7;
+    box-shadow: 0 0 8px rgba(50, 191, 177, 0.6);
+  }
+  .file-upload-button:focus {
+    outline: none;
+    box-shadow: 0px 0px 4px rgba(50, 191, 177, 0.5);
+  }
+
+  /* Nút dự đoán lại */
+  .reset-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #f7f7f7;
+    color: rgb(50, 191, 177);
+    border: 1px solid rgb(50, 191, 177);
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .reset-button:hover {
+    background-color: rgb(50, 191, 177);
+    color: #f7f7f7;
+    box-shadow: 0 0 8px rgba(50, 191, 177, 0.6);
+  }
+  .reset-button:focus {
+    outline: none;
+    box-shadow: 0px 0px 4px rgba(50, 191, 177, 0.5);
+  }
+
+  /* Màu điểm */
+  .table-span-score-red {
+    color: rgb(255, 51, 0);
+  }
+  .table-span-score-green {
+    color: rgb(50, 191, 177);
+  }
+  
+  /* Nút đóng modal */
+  .table-close-modal-button {
+    background-color: #f7f7f7;
+    color: rgb(50, 191, 177);
+    border: 1px solid rgb(50, 191, 177);
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  .table-close-modal-button:hover {
+    background-color: rgb(50, 191, 177);
+    color: #f7f7f7;
+    box-shadow: 0 0 8px rgba(50, 191, 177, 0.6);
+  }
+  .table-close-modal-button:focus {
+    outline: none;
+    box-shadow: 0px 0px 4px rgba(50, 191, 177, 0.5);
+  }
+
+  /* Nội dung modal kết quả */
+  .p-table-modal {
+    font-size: 19px;
+  }

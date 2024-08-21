@@ -1,0 +1,21 @@
+grade: (A, B, C, D, E, F, G)
+home_ownership (OWN, MORTGAGE, RENT, ANY): tình trạng nhà
+verification_status (Source Verified, Verified)
+purpose (debt_consolidation, credit_card, major_purchase, car
+home_improvement,educational, renewable_energy, small_business
+moving, vacation, house, wedding, medical, other ): mục đích vay
+term (36, 60 months)
+emp_length:
+last_pymnt_d:
+int_rate (not null - float): lãi suất đối với khoản vay
+annual_inc (float): Thu nhập hàng năm (USD)
+dti (not null - float): tỉ lệ Tổng các khoản thanh toán nợ hàng tháng/Thu nhập hàng tháng
+inq_last_6mths (int): số lần nộp đơn xin vay hoặc mở tài khoản tín dụng mới trong vòng 6 tháng gần nhất
+revol_util (float): Tỷ lệ sử dụng hạn mức tín dụng = Số tiền tín đã, đang sử dụng / tổng số tiền tín dụng tối đa mà người vay thể vay
+out_prncp  (float): số tiền gốc mà người vay còn phải trả 
+total_pymnt (float): số tiền người vay đã trả
+total_rec_int (float): Interest received to date
+total_rev_hi_lim (float): Total revolving high credit/credit limit:  Tổng hạn mức tín dụng quay vòng cao nhất/hạn mức tín dụng
+earliest_cr_line (date): thời điểm người vay đã mở tài khoản tín dụng đầu tiên
+issue_d (date): thời điểm gần nhất khoản vay được cấp
+last_credit_pull_d (date): thời điểm gần nhất mà công ty cho vay (LC) đã thực hiện kiểm tra tín dụng của người vay

@@ -1,0 +1,8 @@
+__pycache__/
+mlops/mlartifacts
+mlops/mlruns
+test_score_card_model/data
+test_score_card_model/pipeline_model.pkl
+webapp/input file
+data/
+*.pkl

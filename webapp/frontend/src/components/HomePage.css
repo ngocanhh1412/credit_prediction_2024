@@ -1,0 +1,25 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f7f7f7;
+  }
+  
+  .homepage-container-h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .homepage-container-p {
+    font-size: 18px;
+    color: #333;
+  }
+
+  .homepage-container-strong {
+    color: rgb(50, 191, 177);
+  }
+  
