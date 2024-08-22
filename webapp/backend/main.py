@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from form import app as form_app
 from table import app as table_app
@@ -25,6 +25,8 @@ app.add_middleware(
 async def get_threshold():
     with open('threshold.txt', 'r') as file:
         threshold = file.read().strip()
+    if threshold is None:
+        raise HTTPException(status_code=500, detail="Error reading threshold")
     return {"threshold": threshold}
 
 # Include the form_app routes

@@ -1,0 +1,101 @@
+name,member_id,term,int_rate,grade,emp_length,home_ownership,annual_inc,verification_status,purpose,dti,inq_last_6mths,revol_util,out_prncp,total_pymnt,total_rec_int,last_pymnt_amnt,tot_cur_bal,total_rev_hi_lim,earliest_cr_line,issue_d,last_pymnt_d,last_credit_pull_d,score
+Nguyễn Viết Lập,78770369,60,17.83,F,7 years,OWN,40485,Source Verified,home_improvement,24.55,8,55.51,18517,19350,5746,3982,43460,35627,Oct-95,Jun-21,Mar-22,Aug-23,676.0
+Vũ Thị Hồng Nga,73799790,60,14.04,A,3 years,MORTGAGE,42947,Verified,home_improvement,15.47,4,8.36,5430,23926,7413,3378,63436,41923,Feb-07,Feb-21,Jan-22,Feb-23,747.0
+Chu Ngọc Hà,64652475,60,5.47,B,3 years,RENT,83544,Source Verified,small_business,24.32,6,78.82,2328,29477,7000,6941,55327,7905,Oct-11,Jun-21,Nov-23,Aug-23,720.0
+Nguyễn Đức Thông,52307508,60,21.6,E,7 years,RENT,134242,Verified,credit_card,6.28,5,48.29,18511,30953,9415,6721,52816,28108,Mar-99,Sep-21,Aug-23,Dec-23,654.0
+Döông Töû Khoâi,96384688,60,12.59,B,3 years,RENT,42973,Source Verified,small_business,14.8,8,72.6,3093,48912,6621,6246,87181,29987,Jul-08,Jun-22,Nov-23,Oct-22,707.0
+Võ Xuân Vương,90489769,60,7.44,B,9 years,OWN,84364,Verified,other,27.62,4,19.55,13323,36158,4061,6966,77973,17795,Jul-96,Dec-22,Feb-22,Nov-23,714.0
+Lê Phúc Toàn,34216911,60,9.15,A,5 years,MORTGAGE,136840,Source Verified,credit_card,27.04,5,77.47,6632,37833,7950,6215,14722,39176,Feb-16,Jul-22,Oct-23,Mar-22,725.0
+Trần Thành Vi Thanh,28291081,36,18.21,B,10+ years,MORTGAGE,55750,Source Verified,home_improvement,7.59,8,47.75,18509,13326,7444,8850,81649,26680,Dec-90,Aug-21,Aug-22,Sep-22,617.0
+Nguyễn Thành Nam,40638350,36,5.42,C,9 years,RENT,67420,Source Verified,home_improvement,26.69,7,72.62,17267,33464,4062,9663,93251,8193,Jun-99,Sep-22,Jul-23,Mar-22,698.0
+Nguyễn Khắc Khải,97847920,60,22.39,G,6 years,RENT,95821,Verified,other,21.63,5,78.33,14752,14297,8741,5811,55312,25358,Jul-96,Nov-22,Nov-22,Dec-23,569.0
+Hoàng Minh Lộc,99604290,60,22.43,D,5 years,OWN,74659,Source Verified,home_improvement,26.02,3,31.01,17401,34726,3556,1842,82187,19528,Mar-96,Jul-22,Jan-23,Mar-22,655.0
+Nguyễn Thành Đạt,73813203,36,24.12,E,7 years,RENT,52912,Verified,major_purchase,19.19,5,47.52,19548,14875,4929,7965,83810,25425,Jan-99,May-22,May-23,Feb-23,588.0
+Phan Ngọc Minh Luân,83755300,36,22.71,A,3 years,RENT,146949,Source Verified,other,13.76,6,31.44,11421,25663,8133,121,91875,26664,Feb-09,Sep-21,Feb-23,Oct-22,670.0
+BĂši Minh Anh TháşŁo,73835552,36,22.35,A,3 years,OWN,62876,Source Verified,other,13.16,5,41.5,9360,29402,812,6571,7484,14121,Dec-92,Aug-21,Jul-23,Apr-22,685.0
+Đặng Vũ Hiệp,85734874,36,13.71,D,8 years,MORTGAGE,56220,Verified,credit_card,27.31,0,11.15,9054,17848,7906,6196,7138,18264,Oct-19,Nov-22,Feb-23,Feb-22,690.0
+Lê Thanh Ngọc,93548772,60,16.83,A,6 years,RENT,126211,Source Verified,small_business,6.02,3,90.07,2138,45660,5867,9460,19076,34325,Nov-17,Aug-21,Dec-23,Apr-23,691.0
+Trần Ngọc Nghĩa,84101102,60,20.24,A,6 years,RENT,141338,Source Verified,other,17.82,9,36.82,2156,4403,1009,8455,72899,36723,Dec-91,Jan-21,Aug-22,Apr-22,558.0
+Huỳnh Phạm Tuấn Minh,28770066,36,21.91,D,5 years,OWN,130584,Verified,home_improvement,16.98,9,40.67,11879,34212,2256,1731,50478,40704,Apr-95,Jun-22,Jan-24,Nov-22,640.0
+Đặng Danh Hoàng Duy,28914728,60,19.81,C,3 years,MORTGAGE,116463,Source Verified,debt_consolidation,10.35,5,24.52,11038,38471,8914,1408,68473,25269,May-00,May-22,Jan-22,Mar-22,672.0
+Trần Thuỵ Xuân Lâm,16645626,36,18.04,B,< 1 year,MORTGAGE,107249,Verified,small_business,24.17,7,39.0,10003,1166,1669,6375,69725,7997,Dec-08,May-22,May-23,Apr-22,527.0
+Nguyễn Xuân Bách,40093478,36,5.93,F,9 years,MORTGAGE,98260,Source Verified,debt_consolidation,29.84,9,95.6,6595,44308,5683,7708,84465,16106,Feb-06,Jan-22,Nov-23,Mar-23,686.0
+Nguyễn Trọng Nghĩa,67970265,36,20.64,A,7 years,OWN,83772,Verified,small_business,29.28,7,63.71,16002,38617,1099,1011,19790,42292,Apr-14,Aug-22,Mar-22,Nov-23,670.0
+Nguyễn Quang Tuyền,51601173,36,10.18,F,7 years,RENT,125865,Verified,other,15.39,2,38.94,18968,28438,6072,5049,11870,16889,Jul-15,Oct-22,Aug-23,Apr-22,688.0
+Võ Văn Chức,88542646,60,24.17,C,1 year,MORTGAGE,51208,Verified,credit_card,19.96,6,8.02,1161,6491,2339,4544,56478,31570,Jan-93,Aug-21,Mar-22,Feb-23,465.0
+Phạm Công Tâm,95113275,60,14.34,B,9 years,RENT,78586,Source Verified,debt_consolidation,21.53,0,93.47,529,22306,6946,317,20872,36161,Nov-10,May-22,Mar-22,Jan-22,674.0
+Hoàng Đình Du,19425043,60,23.16,E,4 years,MORTGAGE,52587,Verified,home_improvement,24.52,1,10.03,14728,7009,8908,1223,25080,48316,Oct-02,Jun-21,Jul-23,Jan-23,514.0
+Nguyễn Tuấn Anh,72169195,60,23.22,G,1 year,OWN,101646,Source Verified,home_improvement,6.13,7,22.93,12986,38367,2329,1645,42578,23515,Feb-96,Aug-22,Jun-22,Feb-23,628.0
+Nguyễn Thị UÙt,31642822,60,14.41,D,6 years,RENT,141755,Verified,home_improvement,21.93,9,76.18,18488,42254,2053,8636,33142,43825,Apr-07,May-22,Feb-23,Mar-22,668.0
+Phạm Văn Hùng,99576664,36,15.37,F,5 years,RENT,71200,Verified,debt_consolidation,25.79,9,85.89,17634,19285,8160,3439,82204,23395,May-99,Aug-21,Mar-23,Jun-23,664.0
+Trần Thị Huyền Trang,19843765,36,16.08,A,2 years,MORTGAGE,40286,Source Verified,home_improvement,14.73,4,45.75,15654,26773,7499,7880,53531,21426,Apr-92,Jun-21,Mar-22,Nov-23,685.0
+Mã Tuấn Minh Hiển,77966943,36,13.61,B,7 years,MORTGAGE,48370,Source Verified,other,16.71,0,3.46,15002,38013,1615,7386,30350,6203,Mar-19,Jan-21,Jan-22,Jun-22,706.0
+Hà Văn Phước,64390786,60,12.12,G,< 1 year,MORTGAGE,42746,Verified,major_purchase,25.25,7,17.58,5543,15709,6325,5792,23668,30189,Feb-00,Mar-21,Aug-23,Oct-23,685.0
+Tôn Đức Việt,71352521,60,17.11,C,9 years,MORTGAGE,107032,Source Verified,small_business,14.37,2,24.67,19085,19308,1215,9185,88652,27074,Apr-92,Mar-22,Dec-22,Jun-22,692.0
+Lê Khánh Vi,49090891,36,13.83,B,3 years,OWN,52773,Verified,other,15.31,2,58.37,18885,45520,6697,1115,54128,9250,Aug-00,Oct-22,Jan-23,Mar-23,694.0
+Nguyễn Văn Thịnh,38839210,60,10.61,B,4 years,OWN,109020,Source Verified,major_purchase,20.33,1,25.71,17462,23193,8402,7971,97295,23335,Jan-00,Jun-21,Jun-22,Jul-23,741.0
+Phạm Hồng Vương,36582109,60,15.65,D,7 years,OWN,30871,Verified,debt_consolidation,5.24,2,92.06,1724,45720,7647,1032,94549,25402,Feb-06,Jan-21,Oct-22,May-22,677.0
+Hoàng Văn Linh,34119947,36,15.68,C,< 1 year,OWN,51695,Source Verified,small_business,14.67,2,29.89,3570,18741,5121,7499,60907,48980,Sep-96,Mar-22,Mar-22,Mar-22,692.0
+Phùng Thế Đạt,94267302,60,18.81,F,9 years,RENT,131295,Source Verified,other,19.91,7,77.3,11857,31874,3083,3961,80735,12943,Oct-10,Nov-21,Sep-23,Apr-23,657.0
+Nguyễn Xuân Tường,19650473,60,23.09,G,1 year,RENT,138949,Verified,small_business,20.35,0,29.14,3001,29759,7598,4449,69194,49924,May-05,Jul-22,Jul-23,Mar-23,617.0
+Đinh Tiến Sỹ,50848810,60,5.97,D,3 years,OWN,40099,Source Verified,debt_consolidation,7.53,2,21.13,11514,38477,2925,5122,84676,26671,May-91,Jun-22,May-23,Aug-22,714.0
+Hoàng Ngọc Định,97506730,36,20.73,E,4 years,OWN,108387,Source Verified,home_improvement,21.22,8,71.09,13070,36221,3017,4750,61148,13875,Aug-13,Mar-21,Dec-22,Jun-23,636.0
+Lê Xuân Thịnh,63962707,36,21.33,B,10+ years,OWN,135595,Source Verified,home_improvement,10.82,3,49.12,17199,45717,2962,5707,37422,12990,Apr-92,Dec-22,May-23,Nov-23,655.0
+Vũ Xuân Trường,81886091,36,7.58,G,8 years,MORTGAGE,74535,Source Verified,other,5.53,6,36.36,13767,45507,1324,9569,22967,47644,Aug-06,Jul-21,Nov-22,Oct-22,677.0
+Nguyễn Lê Hoài Phương,74337127,36,9.1,E,2 years,RENT,106152,Source Verified,home_improvement,10.91,1,32.27,7071,9647,6128,6385,20901,8801,May-98,Mar-21,Sep-23,Mar-23,544.0
+Đỗ Duy Thảo,34788740,36,13.67,B,< 1 year,MORTGAGE,115644,Verified,small_business,10.25,3,54.44,9752,38381,5679,4456,47139,39232,Jul-96,Oct-22,Oct-23,Jul-22,695.0
+Hồ Hoàng Thành,73669364,36,20.31,D,8 years,OWN,55639,Verified,debt_consolidation,7.41,3,57.72,18619,46878,3302,600,86764,39205,Apr-14,May-22,Mar-22,Jan-23,656.0
+Đặng Văn Đảng,48202913,60,13.48,B,8 years,OWN,49179,Source Verified,home_improvement,21.22,8,66.66,2347,14616,2498,5047,40929,14809,Aug-03,May-22,Sep-22,Dec-22,632.0
+Nguyễn Quốc Tuấn,19506115,36,17.6,A,2 years,MORTGAGE,69345,Verified,home_improvement,25.07,4,69.83,4314,37603,5358,7469,58147,43769,Aug-99,Mar-22,Dec-23,Feb-23,682.0
+Nguyễn Phước Lâm,86612201,60,17.15,D,5 years,RENT,123433,Source Verified,small_business,17.04,0,5.01,13341,1544,5792,902,29468,5341,Apr-01,Mar-22,Oct-22,Aug-22,531.0
+Lưu Nguyễn Hữu Đức,34796150,60,10.52,F,9 years,OWN,71841,Source Verified,other,20.53,7,19.94,3056,10698,1235,2364,18701,32606,Dec-17,May-21,Dec-22,May-22,618.0
+Lâm Khánh Ngọc,10084092,60,18.63,C,10+ years,RENT,78720,Source Verified,debt_consolidation,9.56,6,44.41,2088,8789,5907,793,48487,38572,Jun-95,Mar-22,Apr-22,Jun-23,540.0
+Vưu Chí Hào,22181764,36,10.59,C,9 years,MORTGAGE,33294,Verified,major_purchase,11.18,9,0.36,16336,31540,8198,1784,12446,28590,Jan-06,Nov-21,May-22,Jul-22,689.0
+Trần Nguyễn Ngọc Duy,24571193,36,11.49,A,6 years,OWN,84486,Source Verified,credit_card,25.36,3,71.55,8584,16630,888,3926,51229,22889,Dec-90,Nov-21,Sep-22,Nov-23,714.0
+Châu Văn Tuấn,35779664,36,20.73,A,7 years,MORTGAGE,52583,Verified,major_purchase,20.37,7,50.69,19168,23529,8568,7536,37284,9734,Nov-07,Mar-21,Nov-23,Feb-22,726.0
+Đặng Minh Ngọc,77267743,60,7.67,C,7 years,MORTGAGE,30876,Source Verified,credit_card,23.25,8,44.56,1459,49027,4408,5146,28782,18656,May-15,Nov-21,Aug-23,Apr-23,721.0
+Lê Mai Khánh Hưng,43484495,60,20.49,F,< 1 year,MORTGAGE,78170,Source Verified,major_purchase,14.69,8,89.13,3740,15258,4847,4522,91374,22903,Dec-96,Sep-21,Jun-22,Dec-22,672.0
+Lý Gia Bảo,24162264,36,6.1,B,10+ years,MORTGAGE,127319,Verified,debt_consolidation,19.64,5,56.62,9519,26763,3131,7808,21757,12945,Nov-13,Jun-22,Jun-23,May-23,712.0
+Nguyễn Toàn Thắng,12946724,60,17.91,B,9 years,MORTGAGE,78810,Source Verified,home_improvement,25.66,9,50.66,4000,28834,6815,9409,34234,31834,Jan-02,Feb-22,Jan-22,May-23,686.0
+Võ Xuân Anh,50135419,60,15.0,C,7 years,MORTGAGE,52842,Source Verified,small_business,9.65,8,28.05,2613,29875,9502,8047,32396,48232,Aug-08,May-21,Nov-23,Mar-23,684.0
+Hoàng Hải,23971895,60,13.48,C,5 years,OWN,59605,Verified,home_improvement,27.32,3,57.4,3033,14199,2268,9900,24877,30006,Jun-96,Jun-21,Jun-22,Aug-23,621.0
+Lê Phương Bảo,43841310,36,12.3,G,8 years,OWN,118074,Source Verified,home_improvement,15.37,9,35.46,8619,45957,4264,7307,43685,31721,Mar-05,Mar-21,Jul-22,May-23,643.0
+Phan Quốc Thịnh,30563269,36,8.85,D,4 years,OWN,117132,Verified,other,5.95,9,61.49,202,22174,8006,5269,22032,44358,Oct-91,Nov-21,Aug-22,Dec-22,673.0
+Trần Văn Dự,78486655,36,15.66,F,1 year,OWN,130226,Source Verified,other,27.72,7,65.75,5008,35098,4320,5338,34547,36149,May-13,May-21,Aug-22,Nov-22,653.0
+Phạm Long Vân,50671801,36,8.93,D,1 year,RENT,42476,Verified,home_improvement,17.2,6,57.24,1466,11368,5466,8582,86962,10554,Dec-02,Dec-22,Feb-23,Oct-22,633.0
+Phạm Hoàng Phúc,87112653,36,20.96,B,< 1 year,MORTGAGE,79196,Source Verified,other,16.97,2,99.42,10314,45284,7151,7835,8862,14926,Jan-14,Aug-21,Mar-22,Jun-22,679.0
+Nguyễn Hoàng Bảo Hân,62011364,60,7.01,G,8 years,OWN,58368,Verified,credit_card,29.06,7,17.91,15902,12717,6769,3665,57423,46841,Oct-10,Jan-22,Mar-23,Oct-22,631.0
+Lê Tiến Hiếu,81756718,36,23.94,D,9 years,MORTGAGE,98876,Source Verified,other,25.2,8,58.55,14436,47980,8895,8482,61683,16613,Oct-05,Dec-22,May-22,Nov-23,652.0
+Lê Văn Duyệt,69232638,36,12.99,F,8 years,MORTGAGE,127860,Source Verified,small_business,6.46,0,78.75,18678,34306,2162,2329,75684,29815,May-11,Jul-22,Sep-23,Jun-23,673.0
+Trần Mai Thảo Nhi,83261311,60,12.22,B,3 years,OWN,105671,Verified,home_improvement,16.18,4,66.47,6339,21908,4866,977,99365,42079,Jan-17,Mar-21,Mar-22,Apr-23,747.0
+Võ Thị Diệu Ái,11338385,60,9.4,G,4 years,OWN,44657,Verified,home_improvement,24.87,9,63.22,19838,37316,8657,5762,60387,8969,Mar-96,Feb-21,Jan-22,Dec-22,671.0
+Võ Hoàng Minh,89336308,36,20.67,F,9 years,OWN,140758,Verified,credit_card,21.5,8,71.37,4303,46386,7532,2974,22347,43638,Jun-94,Apr-21,Oct-22,Sep-22,626.0
+Phạm Quốc Thịnh,92873432,60,24.74,G,7 years,MORTGAGE,37070,Source Verified,other,24.24,6,61.57,1471,33115,8075,5802,28487,44447,May-11,Oct-22,Sep-23,Jan-23,642.0
+Tiết Tấn Phúc,98162392,60,10.04,C,9 years,OWN,137399,Source Verified,credit_card,22.97,6,95.77,4998,15245,4746,2269,50818,34568,Mar-16,Jul-22,May-22,Jan-22,727.0
+Nguyễn Tấn Thanh,68545254,60,17.29,D,4 years,MORTGAGE,102956,Source Verified,credit_card,22.84,8,80.41,16124,8562,5515,9090,67581,35675,Jun-11,Dec-21,Jan-23,Sep-22,547.0
+Nguyễn Thành Đức,43694117,36,5.35,E,5 years,MORTGAGE,40530,Verified,other,25.06,7,11.03,18168,19903,8334,8782,73303,28495,Feb-19,May-21,Jan-22,Oct-22,720.0
+Phạm Tuấn Nghĩa,23560098,36,9.28,B,1 year,OWN,45903,Verified,major_purchase,20.86,7,63.12,2997,46390,1300,5171,53604,19670,Jul-04,Aug-21,Oct-23,May-23,699.0
+Trần Quang Anh Minh,53231336,60,19.96,C,7 years,MORTGAGE,139238,Verified,debt_consolidation,10.36,0,98.78,5455,32181,3005,654,34520,45566,Jul-04,Apr-22,Jan-23,Dec-23,676.0
+Trương Đức Thọ,50400656,60,19.24,A,< 1 year,OWN,44011,Source Verified,small_business,16.23,3,6.16,15499,16441,9367,9690,72845,44446,Aug-07,Mar-22,Jan-23,Dec-23,699.0
+Cao Nhật Minh,90243047,36,13.31,A,8 years,OWN,79163,Verified,debt_consolidation,17.04,1,48.55,14720,10809,9345,1740,22337,38796,Feb-12,Aug-21,Aug-23,Mar-22,636.0
+Nguyễn Văn Trí,73114114,60,17.41,G,8 years,MORTGAGE,75246,Source Verified,other,23.72,2,30.47,11028,6192,2993,6786,80476,8801,Aug-19,Aug-21,Oct-22,Jun-22,517.0
+Hoàng Tú Việt,25568285,36,17.48,E,10+ years,RENT,116025,Source Verified,home_improvement,14.06,6,58.33,7768,29241,6162,9014,66247,8167,Oct-17,Aug-21,Mar-23,Jul-22,650.0
+Hồ Chí Na,49669756,60,12.19,G,10+ years,RENT,95510,Source Verified,debt_consolidation,12.32,1,76.33,11959,10997,4807,867,41674,39745,Dec-08,Sep-22,Aug-22,Oct-22,599.0
+Nguyễn Tấn Phát,55822620,36,9.99,D,2 years,OWN,87605,Verified,credit_card,5.16,6,48.38,10957,13199,7297,1471,86908,15596,Mar-91,May-22,Oct-23,Apr-23,632.0
+Nguyễn Hoàng Nhã,31137911,36,20.57,B,6 years,OWN,114273,Verified,major_purchase,28.37,4,71.63,15666,13561,8187,3592,64318,39221,Jul-18,Nov-21,Dec-23,Apr-23,584.0
+Lê Trung Duy,84375519,36,17.65,E,4 years,OWN,113472,Verified,major_purchase,24.81,6,43.1,17659,45663,787,4973,36728,41775,Apr-91,Jul-22,Jun-22,Jan-22,648.0
+Huỳnh Thái Phong,12134444,36,6.09,G,9 years,RENT,87527,Verified,credit_card,5.37,7,75.61,17057,28428,4677,6138,32180,39459,Feb-09,Apr-21,Apr-22,Sep-23,674.0
+Vũ Hoàng Long,23733334,60,17.8,B,8 years,OWN,103105,Source Verified,debt_consolidation,11.28,0,21.05,3749,21501,4537,376,5017,25884,Oct-17,May-21,Nov-22,Jul-22,733.0
+Lê Trường Giang,95293278,60,24.39,F,8 years,OWN,145672,Source Verified,home_improvement,27.77,6,70.63,16464,23053,1327,4105,66300,16641,Aug-01,Apr-22,Jan-23,Jul-22,686.0
+Trần Minh Hữu,54117308,36,20.99,G,8 years,RENT,57192,Source Verified,home_improvement,13.69,5,64.27,1730,2113,8877,9095,40081,41286,Mar-91,Dec-21,Oct-23,May-23,478.0
+Nguyễn Trường Giang,85819451,60,20.22,F,7 years,OWN,137686,Source Verified,credit_card,15.29,6,85.48,1756,8927,3804,2192,25620,25309,May-12,Sep-22,Dec-23,Jun-22,518.0
+Trần Thanh Châu,85864186,60,8.54,D,1 year,RENT,143213,Source Verified,major_purchase,29.59,5,80.77,12673,12210,3159,1015,87695,17399,Apr-03,Mar-21,Feb-22,Apr-23,631.0
+Nguyễn Duy Khánh,91587602,60,22.04,E,7 years,RENT,60713,Verified,credit_card,7.11,5,9.15,11847,10364,6572,3632,90519,8032,Mar-98,Jan-22,Aug-23,Mar-23,604.0
+Lê Tấn Đức,21731004,36,19.3,G,4 years,OWN,44183,Source Verified,other,14.69,6,98.94,18483,20233,8249,6349,48867,46600,Apr-90,Oct-21,Jul-23,Mar-23,691.0
+Nguyễn Phi Viễn,96723497,36,17.71,G,4 years,MORTGAGE,98159,Source Verified,credit_card,24.67,0,25.98,7484,38280,9567,6920,71075,26584,Jun-18,Aug-22,Jan-22,Jul-22,634.0
+Đỗ Minh Hoàng Vũ,45546884,60,9.73,E,4 years,MORTGAGE,77971,Verified,other,17.38,5,27.06,15255,6993,1026,276,9990,13917,Aug-93,Oct-21,Feb-22,Nov-22,578.0
+Nguyễn Đình Hiếu,74112153,36,23.23,D,1 year,RENT,143202,Source Verified,other,20.71,1,71.6,2068,19219,9225,1680,45989,47477,Jul-97,May-22,Apr-22,Aug-22,655.0
+Nguyễn Lê Lập Trình,84291056,60,7.94,D,7 years,MORTGAGE,67383,Verified,debt_consolidation,18.83,1,37.82,14958,12266,770,3884,56142,47073,Jul-15,Jan-22,Jun-23,Jan-23,654.0
+Trương Trọng Quân,58752717,60,14.42,F,2 years,RENT,127034,Verified,small_business,24.9,9,11.38,4405,44044,7739,6187,35967,39174,Mar-10,Aug-21,Jul-22,Mar-22,651.0
+Lê Nguyễn Hải Đăng,72280184,60,9.58,D,9 years,RENT,86800,Source Verified,small_business,11.2,8,13.1,8922,7870,4401,8707,15915,8843,Mar-99,Jun-21,Oct-22,Feb-23,566.0
+Mai Xuân Phúc,84507245,60,24.01,F,9 years,MORTGAGE,30621,Verified,major_purchase,21.41,0,36.76,12185,9831,9596,6203,93432,15822,Sep-08,Nov-22,Sep-22,Nov-23,508.0
