@@ -340,5 +340,82 @@ def train_model():
         # Lưu kết quả
         save_model_results(model_version_name, pipeline, metrics, summary_table, df_scorecard, final_threshold, csv_files)
 
+        ################# random search #####################
+        # # Cấu hình tham số cho Random Search
+        # param_distributions = {
+        #     'model__C': [0.1, 1, 10],  # Chọn 3 giá trị cố định cho C
+        #     'model__solver': ['lbfgs', 'liblinear']  # 2 giá trị cho solver
+        # }
+
+        # # Khởi tạo mô hình LogisticRegression
+        # reg = LogisticRegression(max_iter=1000, class_weight='balanced')
+
+        # # Tạo pipeline
+        # woe_transform = WoE_Binning(X_train)
+        # pipeline = Pipeline(steps=[('woe', woe_transform), ('model', reg)])
+
+        # # Khởi tạo RandomizedSearchCV
+        # random_search = RandomizedSearchCV(
+        #     pipeline, 
+        #     param_distributions=param_distributions, 
+        #     n_iter=3,  # Thử nghiệm với 3 tổ hợp tham số
+        #     cv=2,  # Sử dụng 2-fold cross-validation
+        #     scoring='roc_auc',  # Đánh giá theo ROC AUC
+        #     verbose=1,  # Hiển thị tiến trình
+        #     random_state=42,  # Đảm bảo kết quả có thể tái tạo
+        #     n_jobs=-1  # Sử dụng tất cả các nhân CPU có sẵn
+        # )
+
+        # # Huấn luyện mô hình
+        # random_search.fit(X_train, y_train)
+
+        # best_pipeline = random_search.best_estimator_
+
+        # # Tạo bảng feature score
+        # X_train_woe_transformed = best_pipeline.named_steps['woe'].fit_transform(X_train)
+        # feature_name = X_train_woe_transformed.columns.values
+        # summary_table = pd.DataFrame(columns=['Feature name'], data=feature_name)
+        # summary_table['Coefficients'] = np.transpose(best_pipeline['model'].coef_)
+        # summary_table.index = summary_table.index + 1
+        # summary_table.loc[0] = ['Intercept', best_pipeline['model'].intercept_[0]]
+        # summary_table.sort_index(inplace=True)
+
+        # # Tạo dataframe cho ref_categories và tính toán min/max coefficients
+        # df_ref_categories = pd.DataFrame(ref_categories, columns=['Feature name'])
+        # df_ref_categories['Coefficients'] = 0
+        # df_scorecard = pd.concat([summary_table, df_ref_categories])
+        # df_scorecard.reset_index(inplace=True)
+        # df_scorecard['Original feature name'] = df_scorecard['Feature name'].str.split(':').str[0]
+
+        # # Tính toán min/max coefficients
+        # min_sum_coef = df_scorecard.groupby('Original feature name')['Coefficients'].min().sum()
+        # max_sum_coef = df_scorecard.groupby('Original feature name')['Coefficients'].max().sum()
+
+        # # Tính điểm số cho từng biến
+        # df_scorecard['Score - Calculation'] = df_scorecard['Coefficients'] * (850 - 300) / (max_sum_coef - min_sum_coef)
+        # df_scorecard.loc[0, 'Score - Calculation'] = ((df_scorecard.loc[0, 'Coefficients'] - min_sum_coef) / (max_sum_coef - min_sum_coef)) * (850 - 300) + 300
+        # df_scorecard['Score - Preliminary'] = df_scorecard['Score - Calculation'].round()
+
+        # # Tính các chỉ số và lưu kết quả
+        # metrics, best_threshold = calculate_metrics(best_pipeline, X_test, y_test, X_train, y_train)
+
+        # # Tính điểm ngưỡng tín dụng và lưu vào threshold.txt
+        # fpr, tpr, thresholds = roc_curve(y_train, best_pipeline.predict_proba(X_train)[:, 1], drop_intermediate=False)
+        # J = tpr - fpr
+        # max_index = np.argmax(J)
+        # best_thresh = thresholds[max_index]
+        # df_cutoffs = pd.DataFrame(thresholds, columns=['thresholds'])
+        # df_cutoffs['Score'] = ((np.log(df_cutoffs['thresholds'] / (1 - df_cutoffs['thresholds'])) - min_sum_coef) * 
+        #                     ((850 - 300) / (max_sum_coef - min_sum_coef)) + 300).round()
+        # filtered_cutoffs = df_cutoffs[(df_cutoffs['thresholds'] == best_thresh)]
+        # final_threshold = filtered_cutoffs['Score'].values[0]
+
+        # # Xác định phiên bản mô hình
+        # model_version = len([d for d in os.listdir('D:/DH/Thuc Tap/pj/mlops') if os.path.isdir(os.path.join('D:/DH/Thuc Tap/pj/mlops', d)) and d.startswith('Model_v')]) + 1
+        # model_version_name = f'Model_v{model_version}'
+
+        # # Lưu kết quả
+        # save_model_results(model_version_name, best_pipeline, metrics, summary_table, df_scorecard, final_threshold, csv_files)
+
 if __name__ == '__main__':
     train_model()
