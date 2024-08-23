@@ -10,6 +10,10 @@ from sklearn.feature_selection import f_classif
 import os
 import pickle
 import json
+from sklearn.model_selection import RandomizedSearchCV
+from sklearn.linear_model import LogisticRegression
+from sklearn.pipeline import Pipeline
+from scipy.stats import uniform
 from woe import WoE_Binning
 import mlflow
 import mlflow.sklearn
