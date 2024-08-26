@@ -5,6 +5,7 @@
 .predict-by-id-container .table-section{
   overflow: auto;
   height: calc(100vh - 300px);
+  max-width: none !important;
 }
 
 .nav-buttons {
